@@ -16,6 +16,9 @@ struct ContentView: View {
                         Text("Item \(index)")
                     }
                 }
+                NavigationLink(destination: ImageView()) {
+                    Text("Image")
+                }
             }
             .navigationBarTitle("List View")
         }
