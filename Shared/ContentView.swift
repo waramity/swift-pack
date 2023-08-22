@@ -23,15 +23,6 @@ struct ContentView: View {
     }
 }
 
-struct DetailView: View {
-    let itemNumber: Int
-    
-    var body: some View {
-        Text("Detail View for Item \(itemNumber)")
-            .navigationBarTitle("Item \(itemNumber)")
-    }
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
