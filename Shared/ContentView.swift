@@ -11,10 +11,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(1..<6) { index in
-                    NavigationLink(destination: DetailView(itemNumber: index)) {
-                        Text("Item \(index)")
-                    }
+                NavigationLink(destination:  TextView()) {
+                    Text("Text")
                 }
                 NavigationLink(destination: ImageView()) {
                     Text("Image")
@@ -22,7 +20,6 @@ struct ContentView: View {
             }
             .navigationBarTitle("List View")
         }
-        
     }
 }
 
