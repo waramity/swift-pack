@@ -9,32 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("test")
         NavigationView {
-                  Text("ehere")
-                .padding().navigationTitle("Navigation").navigationBarTitleDisplayMode(.inline)
+            List {
+                ForEach(1..<6) { index in
+                    NavigationLink(destination: DetailView(itemNumber: index)) {
+                        Text("Item \(index)")
+                    }
+                }
+            }
+            .navigationBarTitle("List View")
         }
         
-
-        NavigationLink(destination: Text("Second View")) {
-            Text("Hello, World!")
-        }
-        .navigationTitle("Navigation")
-        
-        
-        NavigationLink(destination: Text("Second View")) {
-            Image("test")
-        }
-        .navigationTitle("Navigation")
     }
 }
 
-struct SecondView: View {
+struct DetailView: View {
+    let itemNumber: Int
+    
     var body: some View {
-        NavigationView {
-                  Text("sus")
-            .padding()
-        }
+        Text("Detail View for Item \(itemNumber)")
+            .navigationBarTitle("Item \(itemNumber)")
     }
 }
 
