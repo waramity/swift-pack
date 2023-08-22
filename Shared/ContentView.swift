@@ -9,8 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Image("test")
+        NavigationView {
+                  Text("ehere")
+                .padding().navigationTitle("Navigation").navigationBarTitleDisplayMode(.inline)
+        }
+        
+
+        NavigationLink(destination: Text("Second View")) {
+            Text("Hello, World!")
+        }
+        .navigationTitle("Navigation")
+        
+        
+        NavigationLink(destination: Text("Second View")) {
+            Image("test")
+        }
+        .navigationTitle("Navigation")
+    }
+}
+
+struct SecondView: View {
+    var body: some View {
+        NavigationView {
+                  Text("sus")
             .padding()
+        }
     }
 }
 
