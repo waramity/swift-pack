@@ -14,7 +14,6 @@ struct StateView: View {
             Text(isState ? "State" : "Unstate")
                 .font(.largeTitle)
                 .padding()
-            
             Button(action: {
                 // Toggle the playback state when the button is tapped
                 self.isState.toggle()
