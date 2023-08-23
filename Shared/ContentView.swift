@@ -23,6 +23,9 @@ struct ContentView: View {
                 NavigationLink(destination: CarouselView()) {
                     Text("Carousel UI")
                 }
+                NavigationLink(destination: ButtonView()) {
+                    Text("Button")
+                }
             }
             .navigationBarTitle("List View")
         }
