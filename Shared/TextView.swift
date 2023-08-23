@@ -64,8 +64,9 @@ struct TextView: View {
                     
                     Text("shadow")
                         .shadow(color: .gray, radius: 2, x: 0, y: 15)
-
-                }
+                    
+                    Text("**Markdown bold**. *Markdown italic.* You can [click this link](https://www.appcoda.com) to go to appcoda.com")
+                    .font(.title)                }
             }
         }
     }
