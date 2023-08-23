@@ -31,6 +31,8 @@
 		1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2F2A965BF3009FC54B /* StateView.swift */; };
 		1FFEFA332A965DA0009FC54B /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* StructureView.swift */; };
 		1FFEFA342A965DA0009FC54B /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* StructureView.swift */; };
+		1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA382A966D4B009FC54B /* PathShapeView.swift */; };
+		1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA382A966D4B009FC54B /* PathShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		1FFEFA2C2A961C99009FC54B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		1FFEFA2F2A965BF3009FC54B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		1FFEFA322A965DA0009FC54B /* StructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		1FFEFA382A966D4B009FC54B /* PathShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1FFEFA382A966D4B009FC54B /* PathShapeView.swift */,
 				1FFEFA292A9619F0009FC54B /* CarouselView.swift */,
 				1F26BC972A93FDAE00B43103 /* swift_packApp.swift */,
 				1F26BC982A93FDAE00B43103 /* ContentView.swift */,
@@ -336,6 +340,7 @@
 				1FFEFA272A96186D009FC54B /* LayoutView.swift in Sources */,
 				1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
+				1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +357,7 @@
 				1FFEFA282A96186D009FC54B /* LayoutView.swift in Sources */,
 				1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
+				1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,9 @@ struct ContentView: View {
                 NavigationLink(destination: StructureView()) {
                     Text("Structure")
                 }
+                NavigationLink(destination: PathShapeView()) {
+                    Text("Path Shape")
+                }
             }
             .navigationBarTitle("List View")
         }
