@@ -26,6 +26,9 @@ struct ContentView: View {
                 NavigationLink(destination: ButtonView()) {
                     Text("Button")
                 }
+                NavigationLink(destination: StateView()) {
+                    Text("State")
+                }
             }
             .navigationBarTitle("List View")
         }

@@ -27,6 +27,8 @@
 		1FFEFA2B2A9619F0009FC54B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA292A9619F0009FC54B /* CarouselView.swift */; };
 		1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2C2A961C99009FC54B /* ButtonView.swift */; };
 		1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2C2A961C99009FC54B /* ButtonView.swift */; };
+		1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2F2A965BF3009FC54B /* StateView.swift */; };
+		1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2F2A965BF3009FC54B /* StateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		1FFEFA262A96186D009FC54B /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		1FFEFA292A9619F0009FC54B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		1FFEFA2C2A961C99009FC54B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		1FFEFA2F2A965BF3009FC54B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				1FFEFA1D2A953D2B009FC54B /* TextView.swift */,
 				1FFEFA262A96186D009FC54B /* LayoutView.swift */,
 				1FFEFA2C2A961C99009FC54B /* ButtonView.swift */,
+				1FFEFA2F2A965BF3009FC54B /* StateView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -325,6 +329,7 @@
 				1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2A2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1FFEFA272A96186D009FC54B /* LayoutView.swift in Sources */,
+				1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +344,7 @@
 				1FFEFA1F2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2B2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1FFEFA282A96186D009FC54B /* LayoutView.swift in Sources */,
+				1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
