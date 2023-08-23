@@ -47,6 +47,24 @@ struct TextView: View {
                     Text("[Line spacing and padding], so don’t waste it living someone else’s life. Don’t be trapped by dogma—which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.")
                         .lineSpacing(10)
                         .padding()
+                    
+                    Text("rotation")
+                        .rotationEffect(.degrees(45))
+                    
+                    Text("rotation anchor")
+                        .rotationEffect(.degrees(20), anchor: UnitPoint(x: 1, y: 10))
+                    
+                }
+                
+                Group {
+                    
+                    Text("rotation 3D")
+                        .rotation3DEffect(.degrees(30), axis: (x: 1, y: 0, z: 0))
+                    
+                    
+                    Text("shadow")
+                        .shadow(color: .gray, radius: 2, x: 0, y: 15)
+
                 }
             }
         }
