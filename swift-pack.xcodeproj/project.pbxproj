@@ -11,6 +11,8 @@
 		1F2016232A976075007FB959 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016212A976075007FB959 /* LoadingView.swift */; };
 		1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016242A976451007FB959 /* ProgressBarView.swift */; };
 		1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016242A976451007FB959 /* ProgressBarView.swift */; };
+		1F2016282A976797007FB959 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016272A976797007FB959 /* ModalView.swift */; };
+		1F2016292A976797007FB959 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016272A976797007FB959 /* ModalView.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -33,8 +35,8 @@
 		1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2C2A961C99009FC54B /* ButtonView.swift */; };
 		1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2F2A965BF3009FC54B /* StateView.swift */; };
 		1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA2F2A965BF3009FC54B /* StateView.swift */; };
-		1FFEFA332A965DA0009FC54B /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* StructureView.swift */; };
-		1FFEFA342A965DA0009FC54B /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* StructureView.swift */; };
+		1FFEFA332A965DA0009FC54B /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* DynamicListView.swift */; };
+		1FFEFA342A965DA0009FC54B /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA322A965DA0009FC54B /* DynamicListView.swift */; };
 		1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA382A966D4B009FC54B /* PathShapeView.swift */; };
 		1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA382A966D4B009FC54B /* PathShapeView.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,7 @@
 /* Begin PBXFileReference section */
 		1F2016212A976075007FB959 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		1F2016242A976451007FB959 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		1F2016272A976797007FB959 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,7 +80,7 @@
 		1FFEFA292A9619F0009FC54B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		1FFEFA2C2A961C99009FC54B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		1FFEFA2F2A965BF3009FC54B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
-		1FFEFA322A965DA0009FC54B /* StructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		1FFEFA322A965DA0009FC54B /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 		1FFEFA382A966D4B009FC54B /* PathShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,9 +140,10 @@
 				1FFEFA262A96186D009FC54B /* LayoutView.swift */,
 				1FFEFA2C2A961C99009FC54B /* ButtonView.swift */,
 				1FFEFA2F2A965BF3009FC54B /* StateView.swift */,
-				1FFEFA322A965DA0009FC54B /* StructureView.swift */,
+				1FFEFA322A965DA0009FC54B /* DynamicListView.swift */,
 				1F2016212A976075007FB959 /* LoadingView.swift */,
 				1F2016242A976451007FB959 /* ProgressBarView.swift */,
+				1F2016272A976797007FB959 /* ModalView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -342,11 +346,12 @@
 				1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */,
 				1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F26BCC12A93FDB300B43103 /* ContentView.swift in Sources */,
-				1FFEFA332A965DA0009FC54B /* StructureView.swift in Sources */,
+				1FFEFA332A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016222A976075007FB959 /* LoadingView.swift in Sources */,
 				1F26BCBF2A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2A2A9619F0009FC54B /* CarouselView.swift in Sources */,
+				1F2016282A976797007FB959 /* ModalView.swift in Sources */,
 				1FFEFA272A96186D009FC54B /* LayoutView.swift in Sources */,
 				1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
@@ -361,11 +366,12 @@
 				1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */,
 				1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */,
-				1FFEFA342A965DA0009FC54B /* StructureView.swift in Sources */,
+				1FFEFA342A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016232A976075007FB959 /* LoadingView.swift in Sources */,
 				1F26BCC02A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1FFEFA1F2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2B2A9619F0009FC54B /* CarouselView.swift in Sources */,
+				1F2016292A976797007FB959 /* ModalView.swift in Sources */,
 				1FFEFA282A96186D009FC54B /* LayoutView.swift in Sources */,
 				1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,

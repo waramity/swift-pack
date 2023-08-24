@@ -12,7 +12,7 @@ struct Task: Identifiable {
     var title: String
 }
 
-struct StructureView: View {
+struct DynamicListView: View {
     @State private var tasks: [Task] = []
     @State private var newTask: String = ""
     
@@ -34,7 +34,7 @@ struct StructureView: View {
                 }
                 .padding()
             }
-            .navigationBarTitle("Structure")
+            .navigationBarTitle("Dynamic List, ForEach and Identifiable")
         }
     }
     
