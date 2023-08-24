@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
         NavigationView {
             List {
@@ -46,6 +47,12 @@ struct ContentView: View {
                 Group {
                     NavigationLink(destination: ModalView()) {
                         Text("Modal and Alert")
+                    }
+                    NavigationLink(destination: FormView()) {
+                        Text("Form")
+                    }
+                    NavigationLink(destination: DataSharingView()) {
+                        Text("Data Sharing")
                     }
                 }
             }
