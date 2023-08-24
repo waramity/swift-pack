@@ -63,6 +63,9 @@ struct ContentView: View {
                     NavigationLink(destination: ContextMenuView()) {
                         Text("Context Menu")
                     }
+                    NavigationLink(destination: ActionSheetView()) {
+                        Text("Action Sheet")
+                    }
                 }
             }
             .navigationBarTitle("List View")
