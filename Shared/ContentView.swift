@@ -52,7 +52,7 @@ struct ContentView: View {
                         Text("Form")
                     }
                     NavigationLink(destination: DataSharingView()) {
-                        Text("Data Sharing")
+                        Text("Data Sharing, Combine, Preferences, @EnvironmentObject")
                     }
                 }
             }

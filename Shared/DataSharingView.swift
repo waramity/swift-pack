@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 enum CuisineType: String, CaseIterable {
     case italian = "Italian"
