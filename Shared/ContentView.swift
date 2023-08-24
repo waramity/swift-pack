@@ -35,6 +35,9 @@ struct ContentView: View {
                 NavigationLink(destination: PathShapeView()) {
                     Text("Path Shape")
                 }
+                NavigationLink(destination: LoadingView().frame(width: 150, height: 150)) {
+                    Text("Loading")
+                }
             }
             .navigationBarTitle("List View")
         }
