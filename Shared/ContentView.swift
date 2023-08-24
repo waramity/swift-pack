@@ -57,6 +57,9 @@ struct ContentView: View {
                     NavigationLink(destination: RegistrationFormView()) {
                         Text("[unfinish] Registration Form")
                     }
+                    NavigationLink(destination: SwipeToDeleteView()) {
+                        Text("Swipe To Delete")
+                    }
                 }
             }
             .navigationBarTitle("List View")
