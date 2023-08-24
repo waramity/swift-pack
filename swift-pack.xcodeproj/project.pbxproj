@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F2016222A976075007FB959 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016212A976075007FB959 /* LoadingView.swift */; };
 		1F2016232A976075007FB959 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016212A976075007FB959 /* LoadingView.swift */; };
+		1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016242A976451007FB959 /* ProgressBarView.swift */; };
+		1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016242A976451007FB959 /* ProgressBarView.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -56,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		1F2016212A976075007FB959 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1F2016242A976451007FB959 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 				1FFEFA2F2A965BF3009FC54B /* StateView.swift */,
 				1FFEFA322A965DA0009FC54B /* StructureView.swift */,
 				1F2016212A976075007FB959 /* LoadingView.swift */,
+				1F2016242A976451007FB959 /* ProgressBarView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -258,7 +262,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					1F26BC9D2A93FDB300B43103 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -336,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F26BCC12A93FDB300B43103 /* ContentView.swift in Sources */,
 				1FFEFA332A965DA0009FC54B /* StructureView.swift in Sources */,
 				1F2016222A976075007FB959 /* LoadingView.swift in Sources */,
@@ -354,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */,
 				1FFEFA342A965DA0009FC54B /* StructureView.swift in Sources */,
 				1F2016232A976075007FB959 /* LoadingView.swift in Sources */,
@@ -434,6 +440,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -493,6 +500,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -589,6 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -616,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -678,6 +688,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
@@ -696,6 +707,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;

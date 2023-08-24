@@ -38,6 +38,9 @@ struct ContentView: View {
                 NavigationLink(destination: LoadingView().frame(width: 150, height: 150)) {
                     Text("Loading")
                 }
+                NavigationLink(destination: ProgressBarView()) {
+                    Text("Progress bar")
+                }
             }
             .navigationBarTitle("List View")
         }
