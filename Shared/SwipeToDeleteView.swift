@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct SwipeToDeleteView: View {
+    @State private var items = ["Item 1", "Item 2", "Item 3"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(items, id: \.self) { item in
+                    Text(item)
+                }
+                .onDelete(perform: deleteItem)
+            }
+            .navigationBarItems(trailing: EditButton())
+        }
+    }
+    func deleteItem(at offsets: IndexSet) {
+        items.remove(atOffsets: offsets)
     }
 }
 
