@@ -60,6 +60,9 @@ struct ContentView: View {
                     NavigationLink(destination: SwipeToDeleteView()) {
                         Text("Swipe To Delete")
                     }
+                    NavigationLink(destination: ContextMenuView()) {
+                        Text("Context Menu")
+                    }
                 }
             }
             .navigationBarTitle("List View")
