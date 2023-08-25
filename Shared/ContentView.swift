@@ -84,6 +84,9 @@ struct ContentView: View {
                     NavigationLink(destination: JoyControllerView()) {
                         Text("Joy Controller")
                     }
+                    NavigationLink(destination: MultipleGestureView()) {
+                        Text("Multiple Gesture")
+                    }
                 }
             }
             .navigationBarTitle("List View")

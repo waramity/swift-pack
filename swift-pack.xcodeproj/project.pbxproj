@@ -35,6 +35,8 @@
 		1F2016472A98CB7F007FB959 /* JoyControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016452A98CB7F007FB959 /* JoyControllerView.swift */; };
 		1F2016492A98CF58007FB959 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016482A98CF58007FB959 /* DragGestureView.swift */; };
 		1F20164A2A98CF58007FB959 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016482A98CF58007FB959 /* DragGestureView.swift */; };
+		1F20164C2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */; };
+		1F20164D2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -95,6 +97,7 @@
 		1F2016422A98CA5A007FB959 /* GestureStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateView.swift; sourceTree = "<group>"; };
 		1F2016452A98CB7F007FB959 /* JoyControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyControllerView.swift; sourceTree = "<group>"; };
 		1F2016482A98CF58007FB959 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGestureView.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +168,7 @@
 			children = (
 				1FFEFA382A966D4B009FC54B /* PathShapeView.swift */,
 				1FFEFA292A9619F0009FC54B /* CarouselView.swift */,
+				1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */,
 				1F2016332A97D10D007FB959 /* SwipeToDeleteView.swift */,
 				1F26BC972A93FDAE00B43103 /* swift_packApp.swift */,
 				1F26BC982A93FDAE00B43103 /* ContentView.swift */,
@@ -411,6 +415,7 @@
 				1F2016372A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F2016312A97BBB4007FB959 /* RegistrationFormView.swift in Sources */,
+				1F20164C2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +447,7 @@
 				1F2016382A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F2016322A97BBB4007FB959 /* RegistrationFormView.swift in Sources */,
+				1F20164D2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
