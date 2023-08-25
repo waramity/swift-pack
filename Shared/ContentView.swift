@@ -66,6 +66,9 @@ struct ContentView: View {
                     NavigationLink(destination: ActionSheetView()) {
                         Text("Action Sheet")
                     }
+                    NavigationLink(destination: GestureModifierView()) {
+                        Text("Gesture Modifier")
+                    }
                 }
             }
             .navigationBarTitle("List View")
