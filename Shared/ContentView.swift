@@ -76,6 +76,12 @@ struct ContentView: View {
                         Text("Gesture State")
                     }
                 }
+                
+                Group {
+                    NavigationLink(destination: DragGestureView()) {
+                        Text("Drag Gesture")
+                    }
+                }
             }
             .navigationBarTitle("List View")
         }
