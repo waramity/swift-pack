@@ -21,11 +21,21 @@ struct PresentationDetentsView: View {
     @State var fraction = false
     @State var custom_detent = false
     
+    @State var selection = false
+    @State var hide_drag = false
+    
+    @State var selectedDetent: PresentationDetent = .medium
+    
+    private let availableDetents: [PresentationDetent] = [.medium, .large]
+    
     var body: some View {
         NavigationView {
             VStack {
                 Button("Basic") {
                     basic = true
+                }
+                Button("Hide drag") {
+                    hide_drag = true
                 }
                 Button("Fix height") {
                     fix_height = true
@@ -36,12 +46,18 @@ struct PresentationDetentsView: View {
                 Button("Custom Detent") {
                     custom_detent = true
                 }
+                Button("Selection") {
+                    selection = true
+                }
             }
             .navigationTitle("Presentation Detents")
         }.sheet(isPresented: $basic) {
             Text("Besic view")
                 .presentationDetents([.medium, .large])
-            
+        }.sheet(isPresented: $hide_drag) {
+            Text("Hide drag view")
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.hidden)
         }.sheet(isPresented: $fix_height) {
             Text("Fix height view")
                 .presentationDetents([.height(250)])
@@ -51,6 +67,34 @@ struct PresentationDetentsView: View {
         }.sheet(isPresented: $custom_detent) {
             Text("Custom detent view")
                 .presentationDetents([.custom(CustomDetent.self)])
+        }.sheet(isPresented: $selection) {
+            // 3
+            Picker("Selected Detent", selection: $selectedDetent) {
+                
+                ForEach(availableDetents, id: \.self) {
+                    Text($0.description.capitalized)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+            // 2
+            .presentationDetents([.medium, .large], selection: $selectedDetent)
+            
+            .presentationDragIndicator(.hidden)
+        }
+        
+    }
+}
+
+extension PresentationDetent: CustomStringConvertible {
+    public var description: String {
+        switch self {
+        case .medium:
+            return "Medium"
+        case .large:
+            return "Large"
+        default:
+            return "n/a"
         }
     }
 }
