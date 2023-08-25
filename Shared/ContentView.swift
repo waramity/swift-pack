@@ -97,8 +97,13 @@ struct ContentView: View {
                     }) {
                         Text("Draggable View")
                     }
+                    
                     NavigationLink(destination: ZoomGestureView()) {
                         Text("[unfix] Zoom Gesture View")
+                    }
+                    
+                    NavigationLink(destination: PresentationDetentsView()) {
+                        Text("Presentation Detents")
                     }
                 }
             }
