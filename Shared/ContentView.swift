@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     var body: some View {
         NavigationView {
             List {
@@ -89,6 +89,13 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: RefactorMultipleGestureView()) {
                         Text("Refactor Multiple Gesture")
+                    }
+                    NavigationLink(destination: DraggableView(){
+                        Image(systemName: "star.circle.fill")
+                            .font(.system(size: 100))
+                            .foregroundColor(.green)
+                    }) {
+                        Text("Draggable View")
                     }
                 }
             }
