@@ -97,6 +97,9 @@ struct ContentView: View {
                     }) {
                         Text("Draggable View")
                     }
+                    NavigationLink(destination: ZoomGestureView()) {
+                        Text("[unfix] Zoom Gesture View")
+                    }
                 }
             }
             .navigationBarTitle("List View")
