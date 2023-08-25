@@ -37,6 +37,8 @@
 		1F20164A2A98CF58007FB959 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016482A98CF58007FB959 /* DragGestureView.swift */; };
 		1F20164C2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */; };
 		1F20164D2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */; };
+		1F20164F2A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164E2A98EC6F007FB959 /* RefactorMultipleGestureView.swift */; };
+		1F2016502A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20164E2A98EC6F007FB959 /* RefactorMultipleGestureView.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -98,6 +100,7 @@
 		1F2016452A98CB7F007FB959 /* JoyControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyControllerView.swift; sourceTree = "<group>"; };
 		1F2016482A98CF58007FB959 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGestureView.swift; sourceTree = "<group>"; };
+		1F20164E2A98EC6F007FB959 /* RefactorMultipleGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorMultipleGestureView.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -177,6 +180,7 @@
 				1FFEFA1A2A9538C8009FC54B /* ImageView.swift */,
 				1FFEFA1D2A953D2B009FC54B /* TextView.swift */,
 				1FFEFA262A96186D009FC54B /* LayoutView.swift */,
+				1F20164E2A98EC6F007FB959 /* RefactorMultipleGestureView.swift */,
 				1FFEFA2C2A961C99009FC54B /* ButtonView.swift */,
 				1F20163F2A98B482007FB959 /* LongPressGestureView.swift */,
 				1F2016392A97D638007FB959 /* ActionSheetView.swift */,
@@ -393,6 +397,7 @@
 			files = (
 				1F2016432A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F20164F2A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
 				1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F20162B2A979FCA007FB959 /* FormView.swift in Sources */,
 				1F20163A2A97D638007FB959 /* ActionSheetView.swift in Sources */,
@@ -425,6 +430,7 @@
 			files = (
 				1F2016442A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F2016502A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
 				1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F20162C2A979FCA007FB959 /* FormView.swift in Sources */,
 				1F20163B2A97D638007FB959 /* ActionSheetView.swift in Sources */,

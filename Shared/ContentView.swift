@@ -87,6 +87,9 @@ struct ContentView: View {
                     NavigationLink(destination: MultipleGestureView()) {
                         Text("Multiple Gesture")
                     }
+                    NavigationLink(destination: RefactorMultipleGestureView()) {
+                        Text("Refactor Multiple Gesture")
+                    }
                 }
             }
             .navigationBarTitle("List View")
