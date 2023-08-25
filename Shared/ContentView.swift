@@ -72,6 +72,9 @@ struct ContentView: View {
                     NavigationLink(destination: LongPressGestureView()) {
                         Text("Long Press Gesture")
                     }
+                    NavigationLink(destination: GestureStateView()) {
+                        Text("Gesture State")
+                    }
                 }
             }
             .navigationBarTitle("List View")
