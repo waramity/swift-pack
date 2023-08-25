@@ -78,8 +78,8 @@ struct ContentView: View {
                 }
                 
                 Group {
-                    NavigationLink(destination: DragGestureView()) {
-                        Text("Drag Gesture")
+                    NavigationLink(destination: JoyControllerView()) {
+                        Text("Joy Controller")
                     }
                 }
             }

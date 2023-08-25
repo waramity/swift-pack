@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DragGestureView: View {
+struct JoyControllerView: View {
     @GestureState private var dragOffset = CGSize.zero
     
     var body: some View {
