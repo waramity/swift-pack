@@ -105,6 +105,9 @@ struct ContentView: View {
                     NavigationLink(destination: PresentationDetentsView()) {
                         Text("Presentation Detents")
                     }
+                    NavigationLink(destination: BasicCoreMLView()) {
+                        Text("Basic Core ML")
+                    }
                 }
             }
             .navigationBarTitle("List View")

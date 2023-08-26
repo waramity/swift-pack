@@ -45,6 +45,8 @@
 		1F2016562A98F21A007FB959 /* ZoomGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016542A98F21A007FB959 /* ZoomGestureView.swift */; };
 		1F2016582A991DD9007FB959 /* PresentationDetentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016572A991DD9007FB959 /* PresentationDetentsView.swift */; };
 		1F2016592A991DD9007FB959 /* PresentationDetentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016572A991DD9007FB959 /* PresentationDetentsView.swift */; };
+		1F20165E2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */; };
+		1F20165F2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -110,6 +112,7 @@
 		1F2016512A98EFEC007FB959 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
 		1F2016542A98F21A007FB959 /* ZoomGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGestureView.swift; sourceTree = "<group>"; };
 		1F2016572A991DD9007FB959 /* PresentationDetentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetentsView.swift; sourceTree = "<group>"; };
+		1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCoreMLView.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -188,6 +191,7 @@
 				1F26BC992A93FDB300B43103 /* Assets.xcassets */,
 				1FFEFA1A2A9538C8009FC54B /* ImageView.swift */,
 				1FFEFA1D2A953D2B009FC54B /* TextView.swift */,
+				1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */,
 				1FFEFA262A96186D009FC54B /* LayoutView.swift */,
 				1F20164E2A98EC6F007FB959 /* RefactorMultipleGestureView.swift */,
 				1FFEFA2C2A961C99009FC54B /* ButtonView.swift */,
@@ -434,6 +438,7 @@
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016372A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */,
+				1F20165E2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,
 				1F2016312A97BBB4007FB959 /* RegistrationFormView.swift in Sources */,
 				1F20164C2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */,
 			);
@@ -470,6 +475,7 @@
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016382A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */,
+				1F20165F2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,
 				1F2016322A97BBB4007FB959 /* RegistrationFormView.swift in Sources */,
 				1F20164D2A98D2FF007FB959 /* MultipleGestureView.swift in Sources */,
 			);
