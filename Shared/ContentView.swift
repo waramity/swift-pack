@@ -105,6 +105,11 @@ struct ContentView: View {
                     NavigationLink(destination: PresentationDetentsView()) {
                         Text("Presentation Detents")
                     }
+                    
+                    NavigationLink(destination: TinderView()) {
+                        Text("Tinder")
+                    }
+                    
                     NavigationLink(destination: BasicCoreMLView()) {
                         Text("Basic Core ML")
                     }

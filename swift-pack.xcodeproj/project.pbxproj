@@ -47,6 +47,16 @@
 		1F2016592A991DD9007FB959 /* PresentationDetentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016572A991DD9007FB959 /* PresentationDetentsView.swift */; };
 		1F20165E2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */; };
 		1F20165F2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */; };
+		1F2016982A9FBC14007FB959 /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016972A9FBC14007FB959 /* TinderView.swift */; };
+		1F2016992A9FBC14007FB959 /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016972A9FBC14007FB959 /* TinderView.swift */; };
+		1F20169B2A9FBE6B007FB959 /* TinderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20169A2A9FBE6B007FB959 /* TinderCardView.swift */; };
+		1F20169C2A9FBE6B007FB959 /* TinderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20169A2A9FBE6B007FB959 /* TinderCardView.swift */; };
+		1F20169E2A9FBFAE007FB959 /* TinderProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20169D2A9FBFAE007FB959 /* TinderProfile.swift */; };
+		1F20169F2A9FBFAE007FB959 /* TinderProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20169D2A9FBFAE007FB959 /* TinderProfile.swift */; };
+		1F2016A12A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */; };
+		1F2016A22A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */; };
+		1F2016A42A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */; };
+		1F2016A52A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -113,6 +123,11 @@
 		1F2016542A98F21A007FB959 /* ZoomGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGestureView.swift; sourceTree = "<group>"; };
 		1F2016572A991DD9007FB959 /* PresentationDetentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetentsView.swift; sourceTree = "<group>"; };
 		1F20165D2A9A30A1007FB959 /* BasicCoreMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCoreMLView.swift; sourceTree = "<group>"; };
+		1F2016972A9FBC14007FB959 /* TinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderView.swift; sourceTree = "<group>"; };
+		1F20169A2A9FBE6B007FB959 /* TinderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardView.swift; sourceTree = "<group>"; };
+		1F20169D2A9FBFAE007FB959 /* TinderProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderProfile.swift; sourceTree = "<group>"; };
+		1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderTopBarMenu.swift; sourceTree = "<group>"; };
+		1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderBottomBarMenu.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,6 +182,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2016962A9FBBFF007FB959 /* Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				1F2016972A9FBC14007FB959 /* TinderView.swift */,
+				1F20169A2A9FBE6B007FB959 /* TinderCardView.swift */,
+				1F20169D2A9FBFAE007FB959 /* TinderProfile.swift */,
+				1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */,
+				1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */,
+			);
+			path = Tinder;
+			sourceTree = "<group>";
+		};
 		1F26BC912A93FDAE00B43103 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +208,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1F2016962A9FBBFF007FB959 /* Tinder */,
 				1FFEFA382A966D4B009FC54B /* PathShapeView.swift */,
 				1FFEFA292A9619F0009FC54B /* CarouselView.swift */,
 				1F20164B2A98D2FF007FB959 /* MultipleGestureView.swift */,
@@ -421,21 +449,26 @@
 				1F26BCC12A93FDB300B43103 /* ContentView.swift in Sources */,
 				1FFEFA332A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016222A976075007FB959 /* LoadingView.swift in Sources */,
+				1F20169B2A9FBE6B007FB959 /* TinderCardView.swift in Sources */,
+				1F2016A42A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */,
 				1F2016342A97D10D007FB959 /* SwipeToDeleteView.swift in Sources */,
 				1F2016552A98F21A007FB959 /* ZoomGestureView.swift in Sources */,
 				1F26BCBF2A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016522A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1F20163D2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1F20169E2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162E2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2A2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1F2016282A976797007FB959 /* ModalView.swift in Sources */,
 				1F2016492A98CF58007FB959 /* DragGestureView.swift in Sources */,
 				1FFEFA272A96186D009FC54B /* LayoutView.swift in Sources */,
+				1F2016982A9FBC14007FB959 /* TinderView.swift in Sources */,
 				1F2016582A991DD9007FB959 /* PresentationDetentsView.swift in Sources */,
 				1F2016462A98CB7F007FB959 /* JoyControllerView.swift in Sources */,
 				1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
+				1F2016A12A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
 				1F2016372A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F20165E2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,
@@ -458,21 +491,26 @@
 				1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */,
 				1FFEFA342A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016232A976075007FB959 /* LoadingView.swift in Sources */,
+				1F20169C2A9FBE6B007FB959 /* TinderCardView.swift in Sources */,
+				1F2016A52A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */,
 				1F2016352A97D10D007FB959 /* SwipeToDeleteView.swift in Sources */,
 				1F2016562A98F21A007FB959 /* ZoomGestureView.swift in Sources */,
 				1F26BCC02A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016532A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1F20163E2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1F20169F2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162F2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1F2A953D2B009FC54B /* TextView.swift in Sources */,
 				1FFEFA2B2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1F2016292A976797007FB959 /* ModalView.swift in Sources */,
 				1F20164A2A98CF58007FB959 /* DragGestureView.swift in Sources */,
 				1FFEFA282A96186D009FC54B /* LayoutView.swift in Sources */,
+				1F2016992A9FBC14007FB959 /* TinderView.swift in Sources */,
 				1F2016592A991DD9007FB959 /* PresentationDetentsView.swift in Sources */,
 				1F2016472A98CB7F007FB959 /* JoyControllerView.swift in Sources */,
 				1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
+				1F2016A22A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
 				1F2016382A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F20165F2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,
