@@ -111,8 +111,13 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: BasicCoreMLView()) {
-                        Text("Basic Core ML")
+                        Text("[unfinished] Basic Core ML")
                     }
+                    
+                    NavigationLink(destination: SeeFoodView()) {
+                        Text("See Food")
+                    }
+                    
                 }
             }
             .navigationBarTitle("List View")

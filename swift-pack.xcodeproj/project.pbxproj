@@ -57,6 +57,10 @@
 		1F2016A22A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */; };
 		1F2016A42A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */; };
 		1F2016A52A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */; };
+		1F2016A82A9FC860007FB959 /* SeeFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A72A9FC860007FB959 /* SeeFoodView.swift */; };
+		1F2016A92A9FC860007FB959 /* SeeFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016A72A9FC860007FB959 /* SeeFoodView.swift */; };
+		1F2016AB2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016AA2A9FC934007FB959 /* SeeFoodImagePicker.swift */; };
+		1F2016AC2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2016AA2A9FC934007FB959 /* SeeFoodImagePicker.swift */; };
 		1F26BCB02A93FDB300B43103 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCAF2A93FDB300B43103 /* Tests_iOS.swift */; };
 		1F26BCB22A93FDB300B43103 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCB12A93FDB300B43103 /* Tests_iOSLaunchTests.swift */; };
 		1F26BCBC2A93FDB300B43103 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */; };
@@ -128,6 +132,8 @@
 		1F20169D2A9FBFAE007FB959 /* TinderProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderProfile.swift; sourceTree = "<group>"; };
 		1F2016A02A9FC056007FB959 /* TinderTopBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderTopBarMenu.swift; sourceTree = "<group>"; };
 		1F2016A32A9FC085007FB959 /* TinderBottomBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderBottomBarMenu.swift; sourceTree = "<group>"; };
+		1F2016A72A9FC860007FB959 /* SeeFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodView.swift; sourceTree = "<group>"; };
+		1F2016AA2A9FC934007FB959 /* SeeFoodImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodImagePicker.swift; sourceTree = "<group>"; };
 		1F26BC972A93FDAE00B43103 /* swift_packApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_packApp.swift; sourceTree = "<group>"; };
 		1F26BC982A93FDAE00B43103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F26BC992A93FDB300B43103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,6 +200,15 @@
 			path = Tinder;
 			sourceTree = "<group>";
 		};
+		1F2016A62A9FC851007FB959 /* SeeFood */ = {
+			isa = PBXGroup;
+			children = (
+				1F2016A72A9FC860007FB959 /* SeeFoodView.swift */,
+				1F2016AA2A9FC934007FB959 /* SeeFoodImagePicker.swift */,
+			);
+			path = SeeFood;
+			sourceTree = "<group>";
+		};
 		1F26BC912A93FDAE00B43103 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +223,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1F2016A62A9FC851007FB959 /* SeeFood */,
 				1F2016962A9FBBFF007FB959 /* Tinder */,
 				1FFEFA382A966D4B009FC54B /* PathShapeView.swift */,
 				1FFEFA292A9619F0009FC54B /* CarouselView.swift */,
@@ -447,6 +463,7 @@
 				1F20163A2A97D638007FB959 /* ActionSheetView.swift in Sources */,
 				1F2016402A98B482007FB959 /* LongPressGestureView.swift in Sources */,
 				1F26BCC12A93FDB300B43103 /* ContentView.swift in Sources */,
+				1F2016A82A9FC860007FB959 /* SeeFoodView.swift in Sources */,
 				1FFEFA332A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016222A976075007FB959 /* LoadingView.swift in Sources */,
 				1F20169B2A9FBE6B007FB959 /* TinderCardView.swift in Sources */,
@@ -467,6 +484,7 @@
 				1F2016582A991DD9007FB959 /* PresentationDetentsView.swift in Sources */,
 				1F2016462A98CB7F007FB959 /* JoyControllerView.swift in Sources */,
 				1FFEFA302A965BF3009FC54B /* StateView.swift in Sources */,
+				1F2016AB2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016A12A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
 				1F2016372A97D339007FB959 /* ContextMenuView.swift in Sources */,
@@ -489,6 +507,7 @@
 				1F20163B2A97D638007FB959 /* ActionSheetView.swift in Sources */,
 				1F2016412A98B482007FB959 /* LongPressGestureView.swift in Sources */,
 				1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */,
+				1F2016A92A9FC860007FB959 /* SeeFoodView.swift in Sources */,
 				1FFEFA342A965DA0009FC54B /* DynamicListView.swift in Sources */,
 				1F2016232A976075007FB959 /* LoadingView.swift in Sources */,
 				1F20169C2A9FBE6B007FB959 /* TinderCardView.swift in Sources */,
@@ -509,6 +528,7 @@
 				1F2016592A991DD9007FB959 /* PresentationDetentsView.swift in Sources */,
 				1F2016472A98CB7F007FB959 /* JoyControllerView.swift in Sources */,
 				1FFEFA312A965BF3009FC54B /* StateView.swift in Sources */,
+				1F2016AC2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016A22A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
 				1F2016382A97D339007FB959 /* ContextMenuView.swift in Sources */,
