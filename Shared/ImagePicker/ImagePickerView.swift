@@ -1,13 +1,13 @@
 //
-//  SeeFoodView.swift
+//  ImagePickerView.swift
 //  swift-pack
 //
-//  Created by nattapol wattana on 31/8/2566 BE.
+//  Created by nattapol wattana on 1/9/2566 BE.
 //
 
 import SwiftUI
 
-struct SeeFoodView: View {
+struct ImagePickerView: View {
     @State var isPresenting: Bool = false
     @State var uiImage: UIImage?
     
@@ -19,7 +19,6 @@ struct SeeFoodView: View {
                         isPresenting = true
                     }
                 
-                Image(systemName: "camera")
             }
             .font(.largeTitle)
             .foregroundColor(.blue)
@@ -39,14 +38,14 @@ struct SeeFoodView: View {
             
         }
         .sheet(isPresented: $isPresenting){
-            SeeFoodImagePicker(uiImage: $uiImage, isPresenting: $isPresenting)
+            ImagePicker(uiImage: $uiImage, isPresenting: $isPresenting)
         }
         .padding()
     }
 }
 
-struct SeeFoodView_Previews: PreviewProvider {
+struct ImagePickerView_Previews: PreviewProvider {
     static var previews: some View {
-        SeeFoodView()
+        ImagePickerView()
     }
 }

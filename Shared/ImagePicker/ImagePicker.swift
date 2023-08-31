@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 
-struct SeeFoodImagePicker: UIViewControllerRepresentable {
+struct ImagePicker: UIViewControllerRepresentable {
     
     @Binding var uiImage: UIImage?
     @Binding var isPresenting: Bool
@@ -26,7 +26,7 @@ struct SeeFoodImagePicker: UIViewControllerRepresentable {
     
     class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         
-        let parent: SeeFoodImagePicker
+        let parent: ImagePicker
                 
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             parent.uiImage = info[.originalImage] as? UIImage
@@ -37,7 +37,7 @@ struct SeeFoodImagePicker: UIViewControllerRepresentable {
             parent.isPresenting = false
         }
         
-        init(_ imagePicker: SeeFoodImagePicker) {
+        init(_ imagePicker: ImagePicker) {
             self.parent = imagePicker
         }
         

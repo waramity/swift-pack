@@ -106,6 +106,10 @@ struct ContentView: View {
                         Text("Presentation Detents")
                     }
                     
+                    NavigationLink(destination: ImagePickerView()) {
+                        Text("Image Picker")
+                    }
+                    
                     NavigationLink(destination: TinderView()) {
                         Text("Tinder")
                     }
@@ -114,10 +118,13 @@ struct ContentView: View {
                         Text("[unfinished] Basic Core ML")
                     }
                     
+                    
+                }
+                Group {
+                    
                     NavigationLink(destination: SeeFoodView()) {
                         Text("See Food")
                     }
-                    
                 }
             }
             .navigationBarTitle("List View")

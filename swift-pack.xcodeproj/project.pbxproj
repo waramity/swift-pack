@@ -71,6 +71,10 @@
 		1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BC982A93FDAE00B43103 /* ContentView.swift */; };
 		1F26BCC32A93FDB300B43103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26BC992A93FDB300B43103 /* Assets.xcassets */; };
 		1F26BCC42A93FDB300B43103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26BC992A93FDB300B43103 /* Assets.xcassets */; };
+		1FE266782AA1386C003DF0B7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */; };
+		1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */; };
+		1FE2667B2AA13878003DF0B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */; };
+		1FE2667C2AA13878003DF0B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */; };
 		1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1A2A9538C8009FC54B /* ImageView.swift */; };
 		1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1A2A9538C8009FC54B /* ImageView.swift */; };
 		1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1D2A953D2B009FC54B /* TextView.swift */; };
@@ -146,6 +150,8 @@
 		1F26BCB72A93FDB300B43103 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1F26BCBD2A93FDB300B43103 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		1FFEFA1A2A9538C8009FC54B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		1FFEFA1D2A953D2B009FC54B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		1FFEFA262A96186D009FC54B /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
@@ -223,6 +229,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1FE266762AA1385E003DF0B7 /* ImagePicker */,
 				1F2016A62A9FC851007FB959 /* SeeFood */,
 				1F2016962A9FBBFF007FB959 /* Tinder */,
 				1FFEFA382A966D4B009FC54B /* PathShapeView.swift */,
@@ -295,6 +302,15 @@
 				1F26BCBD2A93FDB300B43103 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1FE266762AA1385E003DF0B7 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */,
+				1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE2667B2AA13878003DF0B7 /* ImagePicker.swift in Sources */,
 				1F2016432A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */,
 				1F20164F2A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
@@ -473,6 +490,7 @@
 				1F26BCBF2A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016522A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1F20163D2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1FE266782AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169E2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162E2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */,
@@ -499,6 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE2667C2AA13878003DF0B7 /* ImagePicker.swift in Sources */,
 				1F2016442A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */,
 				1F2016502A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
@@ -517,6 +536,7 @@
 				1F26BCC02A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016532A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1F20163E2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169F2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162F2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1F2A953D2B009FC54B /* TextView.swift in Sources */,
