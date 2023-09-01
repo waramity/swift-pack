@@ -75,6 +75,12 @@
 		1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */; };
 		1FE2667B2AA13878003DF0B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */; };
 		1FE2667C2AA13878003DF0B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */; };
+		1FE2667F2AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */; };
+		1FE266802AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */; };
+		1FE266822AA29858003DF0B7 /* SeeFoodClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266812AA29858003DF0B7 /* SeeFoodClassifier.swift */; };
+		1FE266832AA29858003DF0B7 /* SeeFoodClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266812AA29858003DF0B7 /* SeeFoodClassifier.swift */; };
+		1FE266852AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266842AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift */; };
+		1FE266862AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266842AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift */; };
 		1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1A2A9538C8009FC54B /* ImageView.swift */; };
 		1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1A2A9538C8009FC54B /* ImageView.swift */; };
 		1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEFA1D2A953D2B009FC54B /* TextView.swift */; };
@@ -152,6 +158,9 @@
 		1F26BCBD2A93FDB300B43103 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		1FE266812AA29858003DF0B7 /* SeeFoodClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodClassifier.swift; sourceTree = "<group>"; };
+		1FE266842AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodImageClassifier.swift; sourceTree = "<group>"; };
 		1FFEFA1A2A9538C8009FC54B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		1FFEFA1D2A953D2B009FC54B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		1FFEFA262A96186D009FC54B /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
@@ -211,6 +220,8 @@
 			children = (
 				1F2016A72A9FC860007FB959 /* SeeFoodView.swift */,
 				1F2016AA2A9FC934007FB959 /* SeeFoodImagePicker.swift */,
+				1FE266812AA29858003DF0B7 /* SeeFoodClassifier.swift */,
+				1FE266842AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -229,6 +240,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1FE2667D2AA297F7003DF0B7 /* Models */,
 				1FE266762AA1385E003DF0B7 /* ImagePicker */,
 				1F2016A62A9FC851007FB959 /* SeeFood */,
 				1F2016962A9FBBFF007FB959 /* Tinder */,
@@ -311,6 +323,14 @@
 				1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */,
 			);
 			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		1FE2667D2AA297F7003DF0B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,8 +507,10 @@
 				1F2016A42A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */,
 				1F2016342A97D10D007FB959 /* SwipeToDeleteView.swift in Sources */,
 				1F2016552A98F21A007FB959 /* ZoomGestureView.swift in Sources */,
+				1FE266822AA29858003DF0B7 /* SeeFoodClassifier.swift in Sources */,
 				1F26BCBF2A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016522A98EFEC007FB959 /* DraggableView.swift in Sources */,
+				1FE2667F2AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */,
 				1F20163D2A98B325007FB959 /* GestureModifierView.swift in Sources */,
 				1FE266782AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169E2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
@@ -505,6 +527,7 @@
 				1F2016AB2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */,
 				1FFEFA2D2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016A12A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
+				1FE266852AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift in Sources */,
 				1F2016372A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA392A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F20165E2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,
@@ -533,8 +556,10 @@
 				1F2016A52A9FC085007FB959 /* TinderBottomBarMenu.swift in Sources */,
 				1F2016352A97D10D007FB959 /* SwipeToDeleteView.swift in Sources */,
 				1F2016562A98F21A007FB959 /* ZoomGestureView.swift in Sources */,
+				1FE266832AA29858003DF0B7 /* SeeFoodClassifier.swift in Sources */,
 				1F26BCC02A93FDB300B43103 /* swift_packApp.swift in Sources */,
 				1F2016532A98EFEC007FB959 /* DraggableView.swift in Sources */,
+				1FE266802AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */,
 				1F20163E2A98B325007FB959 /* GestureModifierView.swift in Sources */,
 				1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169F2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
@@ -551,6 +576,7 @@
 				1F2016AC2A9FC934007FB959 /* SeeFoodImagePicker.swift in Sources */,
 				1FFEFA2E2A961C99009FC54B /* ButtonView.swift in Sources */,
 				1F2016A22A9FC056007FB959 /* TinderTopBarMenu.swift in Sources */,
+				1FE266862AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift in Sources */,
 				1F2016382A97D339007FB959 /* ContextMenuView.swift in Sources */,
 				1FFEFA3A2A966D4B009FC54B /* PathShapeView.swift in Sources */,
 				1F20165F2A9A30A1007FB959 /* BasicCoreMLView.swift in Sources */,

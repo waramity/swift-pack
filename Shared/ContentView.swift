@@ -122,7 +122,9 @@ struct ContentView: View {
                 }
                 Group {
                     
-                    NavigationLink(destination: SeeFoodView()) {
+                    NavigationLink(destination:
+                                    SeeFoodView(classifier: SeeFoodImageClassifier())
+                    ) {
                         Text("See Food")
                     }
                 }

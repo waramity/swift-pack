@@ -10,6 +10,11 @@ import SwiftUI
 struct SeeFoodView: View {
     @State var isPresenting: Bool = false
     @State var uiImage: UIImage?
+    @State var sourceType: UIImagePickerController.SourceType = .photoLibrary
+
+    
+    @ObservedObject var classifier: SeeFoodImageClassifier
+
     
     var body: some View {
         VStack{
@@ -17,11 +22,12 @@ struct SeeFoodView: View {
                 Image(systemName: "photo")
                     .onTapGesture {
                         isPresenting = true
+                        sourceType = .photoLibrary
                     }
                 
                 Image(systemName: "camera")
             }
-            .font(.largeTitle)
+            .font(.title)
             .foregroundColor(.blue)
             
             Rectangle()
@@ -37,16 +43,55 @@ struct SeeFoodView: View {
                     }
                 )
             
+            
+            VStack{
+                Button(action: {
+                    if uiImage != nil {
+                        classifier.detect(uiImage: uiImage!)
+                    }
+                }) {
+                    Image(systemName: "bolt.fill")
+                        .foregroundColor(.orange)
+                        .font(.title)
+                }
+                
+                
+                Group {
+                    if let imageClass = classifier.imageClass {
+                        HStack{
+                            Text("Image categories:")
+                                .font(.caption)
+                            Text(imageClass)
+                                .bold()
+                        }
+                    } else {
+                        HStack{
+                            Text("Image categories: NA")
+                                .font(.caption)
+                        }
+                    }
+                }
+                .font(.subheadline)
+                .padding()
+                
+            }
         }
+        
         .sheet(isPresented: $isPresenting){
-            SeeFoodImagePicker(uiImage: $uiImage, isPresenting: $isPresenting)
+            SeeFoodImagePicker(uiImage: $uiImage, isPresenting:  $isPresenting, sourceType: $sourceType)
+                .onDisappear{
+                    if uiImage != nil {
+                        classifier.detect(uiImage: uiImage!)
+                    }
+                }
+            
         }
+        
         .padding()
-    }
-}
+    }}
 
 struct SeeFoodView_Previews: PreviewProvider {
     static var previews: some View {
-        SeeFoodView()
+        SeeFoodView(classifier: SeeFoodImageClassifier())
     }
 }
