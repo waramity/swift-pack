@@ -11,10 +11,10 @@ struct SeeFoodView: View {
     @State var isPresenting: Bool = false
     @State var uiImage: UIImage?
     @State var sourceType: UIImagePickerController.SourceType = .photoLibrary
-
+    
     
     @ObservedObject var classifier: SeeFoodImageClassifier
-
+    
     
     var body: some View {
         VStack{
@@ -26,7 +26,10 @@ struct SeeFoodView: View {
                     }
                 
                 Image(systemName: "camera")
-            }
+                    .onTapGesture {
+                        isPresenting = true
+                        sourceType = .camera
+                    }            }
             .font(.title)
             .foregroundColor(.blue)
             

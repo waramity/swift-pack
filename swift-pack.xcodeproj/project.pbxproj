@@ -161,6 +161,7 @@
 		1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		1FE266812AA29858003DF0B7 /* SeeFoodClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodClassifier.swift; sourceTree = "<group>"; };
 		1FE266842AA29FEB003DF0B7 /* SeeFoodImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodImageClassifier.swift; sourceTree = "<group>"; };
+		1FE266872AA69219003DF0B7 /* swift-pack--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swift-pack--iOS--Info.plist"; sourceTree = "<group>"; };
 		1FFEFA1A2A9538C8009FC54B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		1FFEFA1D2A953D2B009FC54B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		1FFEFA262A96186D009FC54B /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
@@ -229,6 +230,7 @@
 		1F26BC912A93FDAE00B43103 = {
 			isa = PBXGroup;
 			children = (
+				1FE266872AA69219003DF0B7 /* swift-pack--iOS--Info.plist */,
 				1F26BC962A93FDAE00B43103 /* Shared */,
 				1F26BCA52A93FDB300B43103 /* macOS */,
 				1F26BCAE2A93FDB300B43103 /* Tests iOS */,
@@ -741,6 +743,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-pack--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using camera to take a fucking picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -774,6 +778,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-pack--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using camera to take a fucking picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

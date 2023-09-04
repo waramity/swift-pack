@@ -9,13 +9,14 @@ import SwiftUI
 import UIKit
 
 struct SeeFoodImagePicker: UIViewControllerRepresentable {
+    
     @Binding var uiImage: UIImage?
     @Binding var isPresenting: Bool
     @Binding var sourceType: UIImagePickerController.SourceType
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let imagePicker = UIImagePickerController()
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = sourceType
         imagePicker.delegate = context.coordinator
         return imagePicker
     }
