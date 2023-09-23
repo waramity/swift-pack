@@ -127,6 +127,11 @@ struct ContentView: View {
                     ) {
                         Text("See Food")
                     }
+                    NavigationLink(destination:
+                                    DiffusionAppView()
+                    ) {
+                        Text("Diffusion App")
+                    }
                 }
             }
             .navigationBarTitle("List View")

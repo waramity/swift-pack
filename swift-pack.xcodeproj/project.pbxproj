@@ -71,6 +71,16 @@
 		1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26BC982A93FDAE00B43103 /* ContentView.swift */; };
 		1F26BCC32A93FDB300B43103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26BC992A93FDB300B43103 /* Assets.xcassets */; };
 		1F26BCC42A93FDB300B43103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26BC992A93FDB300B43103 /* Assets.xcassets */; };
+		1F9F6DC42ABF818200426D12 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC32ABF818200426D12 /* Loading.swift */; };
+		1F9F6DC52ABF818200426D12 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC32ABF818200426D12 /* Loading.swift */; };
+		1F9F6DC72ABF819600426D12 /* TextToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC62ABF819600426D12 /* TextToImage.swift */; };
+		1F9F6DC82ABF819600426D12 /* TextToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC62ABF819600426D12 /* TextToImage.swift */; };
+		1F9F6DCA2ABF81B700426D12 /* DiffusionAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC92ABF81B700426D12 /* DiffusionAppView.swift */; };
+		1F9F6DCB2ABF81B700426D12 /* DiffusionAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DC92ABF81B700426D12 /* DiffusionAppView.swift */; };
+		1F9F6DCD2ABF81D700426D12 /* DiffusionImage+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DCC2ABF81D700426D12 /* DiffusionImage+iOS.swift */; };
+		1F9F6DCE2ABF81D700426D12 /* DiffusionImage+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DCC2ABF81D700426D12 /* DiffusionImage+iOS.swift */; };
+		1F9F6DD02ABF81F800426D12 /* DiffusionUtils_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DCF2ABF81F800426D12 /* DiffusionUtils_iOS.swift */; };
+		1F9F6DD12ABF81F800426D12 /* DiffusionUtils_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6DCF2ABF81F800426D12 /* DiffusionUtils_iOS.swift */; };
 		1FE266782AA1386C003DF0B7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */; };
 		1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */; };
 		1FE2667B2AA13878003DF0B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */; };
@@ -156,6 +166,11 @@
 		1F26BCB72A93FDB300B43103 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F26BCBB2A93FDB300B43103 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1F26BCBD2A93FDB300B43103 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1F9F6DC32ABF818200426D12 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		1F9F6DC62ABF819600426D12 /* TextToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToImage.swift; sourceTree = "<group>"; };
+		1F9F6DC92ABF81B700426D12 /* DiffusionAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffusionAppView.swift; sourceTree = "<group>"; };
+		1F9F6DCC2ABF81D700426D12 /* DiffusionImage+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiffusionImage+iOS.swift"; sourceTree = "<group>"; };
+		1F9F6DCF2ABF81F800426D12 /* DiffusionUtils_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffusionUtils_iOS.swift; sourceTree = "<group>"; };
 		1FE266772AA1386C003DF0B7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		1FE2667A2AA13878003DF0B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		1FE2667E2AA29823003DF0B7 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
@@ -242,6 +257,7 @@
 		1F26BC962A93FDAE00B43103 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1F9F6DC02ABF813E00426D12 /* Diffusion */,
 				1FE2667D2AA297F7003DF0B7 /* Models */,
 				1FE266762AA1385E003DF0B7 /* ImagePicker */,
 				1F2016A62A9FC851007FB959 /* SeeFood */,
@@ -316,6 +332,26 @@
 				1F26BCBD2A93FDB300B43103 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1F9F6DC02ABF813E00426D12 /* Diffusion */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6DC22ABF816300426D12 /* Views */,
+				1F9F6DC92ABF81B700426D12 /* DiffusionAppView.swift */,
+				1F9F6DCC2ABF81D700426D12 /* DiffusionImage+iOS.swift */,
+				1F9F6DCF2ABF81F800426D12 /* DiffusionUtils_iOS.swift */,
+			);
+			path = Diffusion;
+			sourceTree = "<group>";
+		};
+		1F9F6DC22ABF816300426D12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6DC32ABF818200426D12 /* Loading.swift */,
+				1F9F6DC62ABF819600426D12 /* TextToImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1FE266762AA1385E003DF0B7 /* ImagePicker */ = {
@@ -496,9 +532,12 @@
 				1FE2667B2AA13878003DF0B7 /* ImagePicker.swift in Sources */,
 				1F2016432A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1B2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F9F6DC72ABF819600426D12 /* TextToImage.swift in Sources */,
 				1F20164F2A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
+				1F9F6DCD2ABF81D700426D12 /* DiffusionImage+iOS.swift in Sources */,
 				1F2016252A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F20162B2A979FCA007FB959 /* FormView.swift in Sources */,
+				1F9F6DC42ABF818200426D12 /* Loading.swift in Sources */,
 				1F20163A2A97D638007FB959 /* ActionSheetView.swift in Sources */,
 				1F2016402A98B482007FB959 /* LongPressGestureView.swift in Sources */,
 				1F26BCC12A93FDB300B43103 /* ContentView.swift in Sources */,
@@ -514,10 +553,12 @@
 				1F2016522A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1FE2667F2AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */,
 				1F20163D2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1F9F6DCA2ABF81B700426D12 /* DiffusionAppView.swift in Sources */,
 				1FE266782AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169E2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162E2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1E2A953D2B009FC54B /* TextView.swift in Sources */,
+				1F9F6DD02ABF81F800426D12 /* DiffusionUtils_iOS.swift in Sources */,
 				1FFEFA2A2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1F2016282A976797007FB959 /* ModalView.swift in Sources */,
 				1F2016492A98CF58007FB959 /* DragGestureView.swift in Sources */,
@@ -545,9 +586,12 @@
 				1FE2667C2AA13878003DF0B7 /* ImagePicker.swift in Sources */,
 				1F2016442A98CA5A007FB959 /* GestureStateView.swift in Sources */,
 				1FFEFA1C2A9538C8009FC54B /* ImageView.swift in Sources */,
+				1F9F6DC82ABF819600426D12 /* TextToImage.swift in Sources */,
 				1F2016502A98EC6F007FB959 /* RefactorMultipleGestureView.swift in Sources */,
+				1F9F6DCE2ABF81D700426D12 /* DiffusionImage+iOS.swift in Sources */,
 				1F2016262A976451007FB959 /* ProgressBarView.swift in Sources */,
 				1F20162C2A979FCA007FB959 /* FormView.swift in Sources */,
+				1F9F6DC52ABF818200426D12 /* Loading.swift in Sources */,
 				1F20163B2A97D638007FB959 /* ActionSheetView.swift in Sources */,
 				1F2016412A98B482007FB959 /* LongPressGestureView.swift in Sources */,
 				1F26BCC22A93FDB300B43103 /* ContentView.swift in Sources */,
@@ -563,10 +607,12 @@
 				1F2016532A98EFEC007FB959 /* DraggableView.swift in Sources */,
 				1FE266802AA29823003DF0B7 /* MobileNetV2.mlmodel in Sources */,
 				1F20163E2A98B325007FB959 /* GestureModifierView.swift in Sources */,
+				1F9F6DCB2ABF81B700426D12 /* DiffusionAppView.swift in Sources */,
 				1FE266792AA1386C003DF0B7 /* ImagePickerView.swift in Sources */,
 				1F20169F2A9FBFAE007FB959 /* TinderProfile.swift in Sources */,
 				1F20162F2A97A1AC007FB959 /* DataSharingView.swift in Sources */,
 				1FFEFA1F2A953D2B009FC54B /* TextView.swift in Sources */,
+				1F9F6DD12ABF81F800426D12 /* DiffusionUtils_iOS.swift in Sources */,
 				1FFEFA2B2A9619F0009FC54B /* CarouselView.swift in Sources */,
 				1F2016292A976797007FB959 /* ModalView.swift in Sources */,
 				1F20164A2A98CF58007FB959 /* DragGestureView.swift in Sources */,
